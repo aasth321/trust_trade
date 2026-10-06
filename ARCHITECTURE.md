@@ -83,34 +83,34 @@ Stop      TradeExecutor
                ↓
        Update Credit Limit
 ```
-##Core Components
-###Frontend
-  Next.js
-  React
-  TypeScript
-  Tailwind CSS
-  wagmi / viem
-###Backend
-   FastAPI
-   Python
-  PostgreSQL
-  SQLAlchemy
-  Web3.py
-###AI Layer
+## Core Components
+### Frontend
+    Next.js
+    React
+    TypeScript
+    Tailwind CSS
+    wagmi / viem
+### Backend
+    FastAPI
+    Python
+    PostgreSQL
+    SQLAlchemy
+    Web3.py
+### AI Layer
     Market Analyst
     Trading Agent
     Risk Engine
     Trust/Reputation Engine
-###Smart Contracts
+### Smart Contracts
     AgentRegistry.sol
     ReputationRegistry.sol
     PolicyManager.sol
     TradeExecutor.sol
-###Database
-  agents
-  trades
-  risk_assessments
-  reputation_history
+###  Database
+    agents
+    trades
+    risk_assessments
+    reputation_history
 
 
 
