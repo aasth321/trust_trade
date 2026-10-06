@@ -1,4 +1,4 @@
-# TrustTrade Architecture
+# trust_trade Architecture
 
 ## High-Level Architecture
 
@@ -55,8 +55,12 @@
                            |
                            v
                          MONAD
----
-## core flow
+                           |
+                           v
+                          DEX
+```
+##Core Flow
+```text
 AI analyzes market
         ↓
 AI proposes trade
@@ -78,8 +82,42 @@ Stop      TradeExecutor
        Update Reputation
                ↓
        Update Credit Limit
+```
+##Core Components
+###Frontend
+  Next.js
+  React
+  TypeScript
+  Tailwind CSS
+  wagmi / viem
+###Backend
+   FastAPI
+   Python
+  PostgreSQL
+  SQLAlchemy
+  Web3.py
+###AI Layer
+    Market Analyst
+    Trading Agent
+    Risk Engine
+    Trust/Reputation Engine
+###Smart Contracts
+    AgentRegistry.sol
+    ReputationRegistry.sol
+    PolicyManager.sol
+    TradeExecutor.sol
+###Database
+  agents
+  trades
+  risk_assessments
+  reputation_history
 
 
-                           |
-                           v
-                          DEX
+
+
+
+
+
+
+
+
