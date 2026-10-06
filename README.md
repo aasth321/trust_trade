@@ -1,5 +1,4 @@
 # trust_trade
-# TrustTrade
 
 ### AI-powered trust and risk layer for autonomous financial agents
 
