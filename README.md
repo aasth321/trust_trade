@@ -33,6 +33,6 @@ The AI can propose a trade, but the policy layer decides whether the trade is al
 - Transaction tracking
 - Trading dashboard
 
-                     |
-                     v
-                    DEX
+
+
+
